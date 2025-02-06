@@ -2,35 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Headings */
+.post-list {
+    padding-left: 20px;
+}
+
 .post-list h2 {
-    font-size: 1.5rem; /* Larger font size for headings */
-    color: #2d3748; /* Darker text color */
-    margin-bottom: 10px; /* Space below the heading */
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 10px;
 }
 
-/* Paragraphs */
 .post-list p {
-    font-size: 1rem; /* Standard font size */
-    color: #4a5568; /* Medium gray text color */
-    line-height: 1.5; /* Improved line height for readability */
-    margin-bottom: 15px; /* Space below paragraphs */
+    font-size: 1rem;
+    color: #4a5568;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
-/* Unordered lists */
-.post-list ul {
-    padding-left: 20px; /* Indent the list */
-}
-
-/* List items */
 .post-list li {
-    font-size: 1rem; /* Standard font size for list items */
-    color: #4a5568; /* Medium gray text color */
-    margin-bottom: 5px; /* Space between list items */
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 5px;
 }
 
-/* Hover effect for list items */
 .post-list li:hover {
     color: #2b6cb0; /* Change color on hover */
     cursor: pointer; /* Pointer cursor on hover */
+}
+
+
+/* General link styles */
+a {
+    color: #2b6cb0; /* Primary link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2b6cb0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2c5282;
+}
+
+.button-outline {
+    color: #2b6cb0;
+    background-color: transparent;
+    border: 2px solid #2b6cb0;
+}
+
+.button-outline:hover {
+    background-color: #2b6cb0;
+    color: #fff;
 }
