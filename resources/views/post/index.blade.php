@@ -10,7 +10,7 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     <div class="post-list">
-                        <a type="button" class="button">Create</a>
+                        <a href="/posts/create" type="button" class="button">Create</a>
                         <ul>
                         @foreach($posts as $post)
                             <li>
