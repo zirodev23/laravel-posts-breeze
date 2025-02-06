@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Headings */
+.post-list h2 {
+    font-size: 1.5rem; /* Larger font size for headings */
+    color: #2d3748; /* Darker text color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Paragraphs */
+.post-list p {
+    font-size: 1rem; /* Standard font size */
+    color: #4a5568; /* Medium gray text color */
+    line-height: 1.5; /* Improved line height for readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Unordered lists */
+.post-list ul {
+    padding-left: 20px; /* Indent the list */
+}
+
+/* List items */
+.post-list li {
+    font-size: 1rem; /* Standard font size for list items */
+    color: #4a5568; /* Medium gray text color */
+    margin-bottom: 5px; /* Space between list items */
+}
+
+/* Hover effect for list items */
+.post-list li:hover {
+    color: #2b6cb0; /* Change color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
